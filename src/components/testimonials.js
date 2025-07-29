@@ -1,4 +1,4 @@
-export default testimonials = () =>{
+const testimonials = () =>{
     return `<section class="py-20">
       <div class="container mx-auto px-4">
         <h2 class="mb-12 text-3xl text-center font-bold">Lo que dicen nuestros clientes</h2>
@@ -10,3 +10,4 @@ export default testimonials = () =>{
       </div>
     </section>`;
 }
+export default testimonials;

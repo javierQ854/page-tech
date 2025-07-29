@@ -1,5 +1,6 @@
-export default hero = () =>{
-    return `    <section class="bg-indigo-600 py-6 text-center text-white">
+const hero = () =>{
+    return `
+    <section class="bg-indigo-600 py-6 text-center text-white">
       <div class="container py-4 mx-auto px-4">
         <h2 class="text-4xl md:text- font-bold ">Transformamos ideas en soluciones digitales</h2>
         <p class="text-xl mb-6">Desrrollamos plataformas web modernas para empresas que buscan impactar</p>
@@ -8,3 +9,5 @@ export default hero = () =>{
       </div>
     </section>`;
 }
+
+export default hero;

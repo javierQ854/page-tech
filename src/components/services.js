@@ -1,4 +1,4 @@
-export default services = () =>{
+const services = () =>{
     return `<section id="Servicios" class="py-20 bg-gray-50">
       <div class=" container mx-auto px-4">
         <h2 class="text-3xl mb-12 text-center font-bold">Nuestros servicios</h2>
@@ -19,3 +19,4 @@ export default services = () =>{
       </div>
     </section>`;
 }
+export default services
